@@ -782,7 +782,7 @@ with tab3:
     df_ = df_selection(mulank_)
     # st.write(df_)
     
-    st.text(f'''             Lucky Numbers: {lucky_number_}
+    st.write(f'''             Lucky Numbers: {lucky_number_}
 Mulank: {mulank_}
 Bhagyank: {bhagyank_}
 Luck: {round(df_[df_.iloc[:,1]==bhagyank_]['luck'].values[0]*100)}%
