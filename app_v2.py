@@ -8,12 +8,12 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Create tabs
-tab1, tab2, tab3 = st.tabs(["Individal analsis", "Compatibility Check","PDF Generation"])
+tab1, tab3, tab2 = st.tabs(["Individal analsis", "Compatibility Check","Analysis PDF generation"])
 
 
 with tab1:
     
-    st.title("Date Input Streamlit App")
+    st.title("Put DOB and unlock potential")
 
     # Define the minimum and maximum dates for the date picker
     min_date = datetime(1900, 1, 1)  # Minimum date (e.g., January 1, 1900)
@@ -459,7 +459,7 @@ with tab1:
 
 
 with tab2:
-    st.title("Compatibility Check")
+    st.title("Put DOB of you and your partner")
 
     # Define the minimum and maximum dates for the date picker
     min_date = datetime(1900, 1, 1)  # Minimum date (e.g., January 1, 1900)
