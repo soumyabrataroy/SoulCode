@@ -787,7 +787,7 @@ with tab3:
 \nBhagyank: {bhagyank_}
 \nLuck: {round(df_[df_.iloc[:,1]==bhagyank_]['luck'].values[0]*100)}%
 \nKua Number: {kua_number_}
-{df_[df_.iloc[:,1]==bhagyank_]['remark'].values[0]}
+\nOne Liner: {df_[df_.iloc[:,1]==bhagyank_]['remark'].values[0]}
 \n{analysis_report}''')
 
     user_input = (f'''             Lucky Numbers: {lucky_number_}
@@ -795,7 +795,7 @@ with tab3:
 \nBhagyank: {bhagyank_}
 \nLuck: {round(df_[df_.iloc[:,1]==bhagyank_]['luck'].values[0]*100)}%
 \nKua Number: {kua_number_}
-{df_[df_.iloc[:,1]==bhagyank_]['remark'].values[0]}
+\nOne Liner: {df_[df_.iloc[:,1]==bhagyank_]['remark'].values[0]}
 \n{analysis_report}''')
 
 
