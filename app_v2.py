@@ -8,7 +8,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Create tabs
-tab1, tab3, tab2 = st.tabs(["Individal analsis", "Compatibility Check","Analysis PDF generation"])
+tab1, tab3, tab2 = st.tabs(["Individal analsis", "Analysis PDF generation","Compatibility Check"])
 
 
 with tab1:
